@@ -1,0 +1,5 @@
+build/
+build.log
+Resources/
+.project
+tiapp.xml
