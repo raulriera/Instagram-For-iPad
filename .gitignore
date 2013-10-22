@@ -3,3 +3,4 @@ build.log
 Resources/
 .project
 tiapp.xml
+plugins/
