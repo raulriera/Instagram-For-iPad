@@ -1,0 +1,42 @@
+<resources>
+	<string name="connect_window_close">Close</string>
+	<string name="connect_window_title">Authorise</string>
+	<string name="instagram_error">There was an error talking to Instagram. Please try again a little later.</string>
+	<string name="instagram_auth_error">Instagram login error</string>
+	<string name="instagram_canceled">Instagram login canceled</string>
+	
+	<string name="login_button_label">Login with Instagram</string>
+	
+	<string name="navigation_menu_user_title">Users</string>
+	<string name="navigation_menu_hashtag_title">Hashtags</string>
+	<string name="navigation_menu_location_title">Locations</string>
+	<string name="navigation_menu_collections_title">Collections</string>
+	
+	<string name="create">Create</string>
+	<string name="cancel">Cancel</string>
+	<string name="send">Send</string>
+	<string name="clear">Clear</string>
+	<string name="edit">Edit</string>
+	<string name="search">Search</string>
+	<string name="my_location_button">Locate me</string>
+	
+	<string name="add_comment_hint">Add comment</string>
+	<string name="add_collection_hint">Create a new collection</string>
+	
+	<string name="gps_purpose_message">Find image or videos near you</string>
+	
+	<string name="my_feed">My Feed</string>
+	<string name="my_likes">♡</string>
+	
+	<string name="user_view_posts">View posts</string>
+	<string name="user_is_private">This user is private. Press the follow button, it could be your next friend.</string>
+	
+	<string name="relationship_loading">Loading...</string>
+	<string name="relationship_pending">Pending approval</string>
+	<string name="relationship_follow">Follow</string>
+	<string name="relationship_unfollow">Unfollow</string>
+	<string name="relationship_yourself">This is you!</string>
+	
+	<string name="dec_point">,</string>
+	<string name="thousands_sep">.</string>
+</resources>

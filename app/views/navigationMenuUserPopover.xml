@@ -1,0 +1,13 @@
+<Alloy>
+    <Popover>
+		<RightNavButton>
+			<Button id="clearButton" onClick="onClearButtonTouched" />
+		</RightNavButton>
+		
+        <TableView id="results">
+			<HeaderView>
+				<SearchBar id="searchBar" />
+			</HeaderView>
+		</TableView>
+    </Popover>
+</Alloy>

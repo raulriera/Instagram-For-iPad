@@ -1,0 +1,24 @@
+"#imageView": {
+	width: '256dp',
+	height: '256dp',
+	top: '0dp',
+	left: '0dp',
+	opacity: 0,
+	borderWidth: 5,
+	borderColor: '#d7d7d7'
+},
+"View": {
+	width: '256dp',
+	height: '256dp',
+	top: '0dp', // these two values control the "gutter"
+	left: '0dp', // these two values control the "gutter"
+},
+"#videoPlayerIcon": {
+	image: '/icons/video.png',
+	width: '32dp',
+	height: '32dp',
+	top: '4dp',
+	right: '8dp',
+	visible: false,
+	touchEnabled: false
+},

@@ -1,0 +1,31 @@
+".container": {
+	layout: "horizontal",
+	bottom: '50dp',
+	opacity: 0,
+	width: Titanium.UI.SIZE,
+	height: '66dp'
+},
+"Button": {
+	width: '56dp',
+	height: '56dp',
+	backgroundColor: 'transparent'
+},
+"#newUserGridButton": {
+	backgroundImage: "/icons/navigation/user-up.png",
+	backgroundSelectedImage: "/icons/navigation/user-down.png"
+},
+"#newHashtagGridButton": {
+	backgroundImage: "/icons/navigation/hashtag-up.png",
+	backgroundSelectedImage: "/icons/navigation/hashtag-down.png",
+	left: '30dp'
+},
+"#newLocationGridButton": {
+	backgroundImage: "/icons/navigation/location-up.png",
+	backgroundSelectedImage: "/icons/navigation/location-down.png",
+	left: '30dp'
+},
+"#newCollectionGridButton": {
+	backgroundImage: "/icons/navigation/collection-up.png",
+	backgroundSelectedImage: "/icons/navigation/collection-down.png",
+	left: '30dp'
+}

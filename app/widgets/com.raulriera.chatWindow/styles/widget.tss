@@ -1,0 +1,28 @@
+"Button": {
+	width: Titanium.UI.SIZE,
+	height: '40dp',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	title: L("send"),
+	style: Titanium.UI.iPhone.SystemButtonStyle.DONE,
+	enabled: false
+},
+"TextField": {
+	width: '220dp',
+	height: 'auto',
+	left: '10dp',
+	hintText: L("add_comment_hint"),
+	font: {
+		fontSize: '13dp'
+	},
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"Toolbar": {
+	bottom: '0dp'
+},
+"TableView": {
+	top: '0dp',
+	bottom: '44dp' // to accomodate the toolbar
+}

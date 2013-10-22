@@ -1,0 +1,5 @@
+<Alloy>
+	<View>
+		<Widget id="chatWindow" src="com.raulriera.chatWindow" />
+	</View>
+</Alloy>

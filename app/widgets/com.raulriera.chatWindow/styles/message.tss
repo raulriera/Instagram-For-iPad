@@ -1,0 +1,59 @@
+".container": {
+	layout: "vertical",
+	left: '56dp',
+	top: '0dp',
+	height: Titanium.UI.SIZE,
+	touchEnabled: false
+},
+"#avatar": {
+	width: '36dp',
+	top: '5dp',
+	height: '36dp',
+	borderRadius: '18dp',
+	left: '10dp',
+	color: "#ccc"
+},
+"#username": {
+	color: "#111",
+	shadowColor: '#fff',
+	top: '2dp',
+	left: '5dp',
+	right: '5dp',
+	height: '14dp',
+	font: {
+		fontWeight: 'bold',
+		fontSize: '14dp'
+	},
+	touchEnabled: false
+}
+"#text": {
+	color: "#111",
+	shadowColor: '#fff',
+	top: '5dp',
+	left: '5dp',
+	right: '5dp',
+	font: {
+		fontSize: '14dp'
+	},
+	color: "#666",
+	touchEnabled: false
+},
+"#date": {
+	color: "#999",
+	shadowColor: '#fff',
+	top: '3dp',
+	right: '5dp',
+	height: '14dp',
+	font: {
+		fontWeight: 'bold',
+		fontSize: '10dp'
+	},
+	touchEnabled: false,
+	zIndex: 999
+},
+".separator": {
+	height: '5dp'
+},
+"TableViewRow": {
+	height: Titanium.UI.SIZE
+}

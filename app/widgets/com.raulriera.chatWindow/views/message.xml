@@ -1,0 +1,11 @@
+<Alloy>
+	<TableViewRow>
+		<ImageView id="avatar" />
+		<View class="container">
+			<Label id="username" />
+			<Label id="text" />
+			<View class="separator" /> <!-- Just a dummy view to give some breathing room -->
+		</View>
+		<Label id="date" />
+	</TableViewRow>
+</Alloy>

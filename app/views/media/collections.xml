@@ -1,0 +1,12 @@
+<Alloy>
+	<View>
+		<TableView id="collectionsTableView" onClick="onTableViewTouched" />
+		<Toolbar>
+			<Items>
+				<TextField id="textBox" onChange="onTextFieldChanged" />
+				<FlexSpace/>
+				<Button id="newButton" onClick="onCreateButtonTouched" />
+			</Items>
+		</Toolbar>
+	</View>
+</Alloy>

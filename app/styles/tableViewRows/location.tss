@@ -1,0 +1,8 @@
+"#name": {
+	color: "#111",
+	shadowColor: '#fff',
+	left: '10dp',
+	right: '10dp',
+	height: '30dp',
+	touchEnabled: false
+}

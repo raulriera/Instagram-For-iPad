@@ -1,0 +1,34 @@
+"#avatar": {
+	width: '36dp',
+	height: '36dp',
+	borderRadius: '18dp',
+	left: '16dp',
+	color: "#ccc",
+	defaultImage: "/userDefaultImage.png"
+},
+"#username": {
+	color: "#111",
+	shadowColor: '#fff',
+	top: '2dp',
+	left: '60dp',
+	right: '10dp',
+	height: '24dp',
+	font: {
+		fontWeight: 'bold',
+		fontSize: '14dp'
+	},
+	touchEnabled: false
+}
+"#name": {
+	color: "#111",
+	shadowColor: '#fff',
+	top: '20dp',
+	left: '60dp',
+	right: '10dp',
+	height: '24dp',
+	font: {
+		fontSize: '14dp'
+	},
+	color: "#666",
+	touchEnabled: false
+}

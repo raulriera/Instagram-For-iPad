@@ -1,0 +1,22 @@
+"#name": {
+	color: "#111",
+	shadowColor: '#fff',
+	left: '16dp',
+	right: '90dp',
+	height: '30dp',
+	touchEnabled: false
+},
+"#count": {
+	width: '75dp',
+	right: '10dp',
+	color: "#aaa",
+	shadowColor: '#fff',
+	font: {
+		fontFamily: Alloy.Globals.font.fontFamily.highlighted,
+		fontSize: '10dp',
+		fontWeight: "bold"
+	},
+	textAlign: "right",
+	height: '15dp',
+	touchEnabled: false
+}

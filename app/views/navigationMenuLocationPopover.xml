@@ -1,0 +1,9 @@
+<Alloy>
+    <Popover>
+		<RightNavButton>
+			<Button id="myLocationButton" onClick="onMyLocationButtonTouched" />
+		</RightNavButton>
+		
+		<View id="mapView" ns="Ti.Map" onClick="onMapTouched" onRegionchanged="onMapRegionChanged" />
+    </Popover>
+</Alloy>

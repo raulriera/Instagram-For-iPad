@@ -1,0 +1,15 @@
+"Popover":{
+	title: L("navigation_menu_location_title"),
+	width: '320dp',
+	height: '380dp'
+},
+"#mapView": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+    userLocation: true,
+	regionFit: true,
+	mapType: "Ti.Map.STANDARD_TYPE"
+},
+"#myLocationButton": {
+	title: L("my_location_button")
+}

@@ -1,0 +1,105 @@
+"Popover": {
+	width: '320dp',
+	height: '240dp'
+},
+"#viewPosts": {
+	title: L("user_view_posts")
+},
+".container": {
+	backgroundColor: "#fff"
+},
+"#avatar": {
+	top: '16dp',
+	left: '20dp',
+	width: '60dp',
+	height: '60dp',
+	borderRadius: '30dp',
+	defaultImage: "/userDefaultImage.png"
+},
+"#countBoxes":{
+	top: '0dp',
+	left: '80dp',
+	layout: "horizontal"
+},
+".countBox":{
+	width: "33.33%",
+	height: '80dp',
+},
+".count": {
+	font: {
+		fontWeight: 'bold',
+		fontFamily: Alloy.Globals.font.highlighted,
+		fontSize: '16dp'
+	},
+	top: '10dp',
+	
+	textAlign: "center"
+}
+".countLabel": {
+	top: '30dp',
+	font: {
+		fontSize: '11dp'
+	},
+	textAlign: "center"
+},
+"#relationshipButton": {
+	title: L("relationship_loading"),
+	top: '54dp',
+	left: '100dp',
+	right: '10dp',
+	width: '210dp',
+	height: '28dp',
+	font: {
+		fontWeight: 'bold',
+		fontFamily: Alloy.Globals.font.highlighted,
+		fontSize: '14dp'
+	},
+	borderColor: '#658dae',
+	borderRadius: '5dp',
+	backgroundImage: null,
+	enabled: false
+}
+".personalInformation": {
+	top: '105dp',
+	layout: "vertical"
+}
+"#fullname": {
+	top: '10dp',
+	left: '10dp',
+	right: '10dp',
+	font: {
+		fontWeight: 'bold',
+		fontFamily: Alloy.Globals.font.highlighted,
+		fontSize: '12dp'
+	}
+},
+"#bio": {
+	top: '6dp',
+	left: '10dp',
+	right: '10dp',
+	font: {
+		fontSize: '12dp'
+	}
+},
+"#website": {
+	top: '6dp',
+	left: '10dp',
+	right: '10dp',
+	font: {
+		fontSize: '12dp'
+	},
+	color: '#658dae'
+},
+"Label": {
+	shadowColor: '#eee',
+	shadowOffset: {
+		x: 0,
+		y: 1
+	}
+},
+".separator": {
+	height: '1dp',
+	backgroundColor: "#b2b2b2",
+	top: '100dp',
+	width: '320dp'
+}

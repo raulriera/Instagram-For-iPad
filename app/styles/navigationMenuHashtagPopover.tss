@@ -1,0 +1,13 @@
+"Popover":{
+	title: L("navigation_menu_hashtag_title"),
+	width: '320dp',
+	height: '380dp'
+},
+"#searchBar": {
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    appearance: Titanium.UI.KEYBOARD_APPEARANCE_ALERT,
+	hintText: L("search")
+},
+"#clearButton": {
+	title: L("clear")
+}

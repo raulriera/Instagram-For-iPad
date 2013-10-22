@@ -1,0 +1,15 @@
+"#map": {
+	animate: true,
+	regionFit: true,
+	userLocation: true
+	
+},
+"#pin": {
+	
+},
+"#handleBar": {
+	backgroundColor: "#d111",
+	height: '44dp',
+	width: '22dp',
+	left: '0dp'
+}

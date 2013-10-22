@@ -1,0 +1,6 @@
+<Alloy>
+	<View ns="Titanium.Map" id="map">
+		<Annotation id="pin" />
+		<View id="handleBar" />
+	</View>
+</Alloy>

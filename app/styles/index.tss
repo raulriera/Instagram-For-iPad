@@ -1,0 +1,30 @@
+"#gridsContainer": {
+	scrollingEnabled: false,
+	showPagingControl: false,
+	pagingControlColor: "transparent",
+	overlayEnabled: true,
+	cacheSize: 3
+},
+"#currentGridContainer": {
+	top: '50dp',
+	opacity: 0,
+	width: Titanium.UI.SIZE,
+	height: '66dp'
+},
+"#currentGrid": {
+	font: {
+		fontSize: '46dp',
+		fontWeight: 'normal',
+		fontFamily: Alloy.Globals.font.fontFamily.thin
+	},
+	color: "#999",
+	shadowColor: "transparent",
+	shadowOffset: {
+		x: 0,
+		y: 0
+	},
+	text: L("my_feed")
+},
+"#index": {
+	backgroundImage: "/background.png"
+}

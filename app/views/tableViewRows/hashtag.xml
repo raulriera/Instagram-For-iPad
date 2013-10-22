@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow>
+		<Label id="name"></Label>
+		<Label id="count"></Label>
+	</TableViewRow>
+</Alloy>

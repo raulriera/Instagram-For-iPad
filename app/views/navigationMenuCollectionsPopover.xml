@@ -1,0 +1,9 @@
+<Alloy>
+    <Popover>
+		<LeftNavButton>
+			<Button id="editButton" onClick="onEditButtonTouched" />
+		</LeftNavButton>
+		
+        <TableView id="results" onDelete="onTableViewRowDeleted" />
+    </Popover>
+</Alloy>

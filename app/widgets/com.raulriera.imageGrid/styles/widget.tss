@@ -1,0 +1,11 @@
+"ScrollableView": {
+	top: 0,
+	bottom: 0,
+	right: 0,
+	left: 0,
+	showPagingControl: true,
+	pagingControlColor: "transparent",
+	overlayEnabled: true,
+	cacheSize: 2,
+	backgroundColor: "#d7d7d7"
+}

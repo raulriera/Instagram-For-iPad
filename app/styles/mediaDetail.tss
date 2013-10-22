@@ -1,0 +1,100 @@
+"Window":{
+	backgroundColor: "#ddd7d7d7",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+},
+"#container": {
+	backgroundColor: "#ddafb0b1",
+	width: '740dp',
+	height: '440dp',
+	panGesture: true // enables "panning" of the view
+},
+"#media": {
+	top: '10dp',
+	left: '10dp',
+	bottom: '10dp',
+	width: '420dp',
+	height: '420dp'
+},
+"#sections": {
+	top: '10dp',
+	right: '10dp',
+	width: '300dp',
+	height: '420dp'
+},
+"#buttons": {
+	layout: "horizontal",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+},
+"#author": {
+	width: '740dp',
+	height: Titanium.UI.SIZE,
+	top: '80dp',
+},
+"#avatar": {
+	top: '5dp',
+	left: '10dp',
+	width: '60dp',
+	height: '60dp',
+	borderRadius: '30dp',
+	defaultImage: "/userDefaultImage.png",
+	/*borderColor: "#ddafb0b1",
+	borderWidth: '5dp'*/
+},
+"#captionBackground": {
+	left: '85dp',
+	right: '10dp',
+	height: Titanium.UI.SIZE,
+	//backgroundColor: "#ddafb0b1"
+},
+"#caption": {
+	top: '10dp',
+	bottom: '10dp',
+	left: '10dp',
+	right: '10dp',
+	color: "#000",
+	shadowColor: "#fff",
+	height: Titanium.UI.SIZE
+},
+"#videoPlayer": {
+	top: '10dp',
+	left: '10dp',
+	bottom: '10dp',
+	width: '360dp',
+	height: '360dp',
+	visible: false,
+	autoplay: false, // this should be a global property
+	// volume: 0, // this should be a global property, at the moment this mutes the device as well (which sucks)
+	backgroundColor: "transparent",
+	mediaControlStyle: Titanium.Media.VIDEO_CONTROL_NONE
+},
+"#videoPlayerIcon": {
+	image: '/icons/video.png',
+	width: '32dp',
+	height: '32dp',
+	top: '14dp',
+	left: '330dp',
+	visible: false
+},
+"Button": {
+	backgroundColor: "#cdcdcd",
+	borderColor: "#afb0b1",
+	width: '150dp',
+	height: '140dp',
+	top: 0,
+	left: 0
+},
+".buttonLabel": {
+	color: '#658dae',
+	shadowColor: "#afb0b1",
+	shadowOffset: {
+		x: 0,
+		y: 0
+	},
+	font: {
+		fontSize: '11dp'
+	},
+	textAlign: "center",
+	bottom: "15dp"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "com.raulriera.imageGrid",
+	"name": "Image Grid",
+	"description" : "A simple image grid similar to the one found in 500px.app",
+	"author": "Raúl Riera",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2012",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}

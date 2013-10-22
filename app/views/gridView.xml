@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container">
+		<Widget id="imageGrid" src="com.raulriera.imageGrid" />
+	</View>
+</Alloy>

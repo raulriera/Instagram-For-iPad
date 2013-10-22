@@ -1,0 +1,12 @@
+"Popover":{
+	title: L("navigation_menu_collections_title"),
+	width: '320dp',
+	height: '380dp'
+}
+"#editButton": {
+	title: L("edit")
+},
+"#results": {
+	editable: true,
+	editing: false
+}

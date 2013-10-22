@@ -1,0 +1,8 @@
+<Alloy>
+	<View>
+		<ImageView id="imageView" onClick="onClick">
+			<ImageView id="videoPlayerIcon" />
+		</ImageView>
+		<ActivityIndicator id="indicator" />
+	</View>
+</Alloy>

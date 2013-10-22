@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<Button id="newUserGridButton" onClick="buttonTouched" type="user" />
+		<Button id="newHashtagGridButton" onClick="buttonTouched" type="hashtag" />
+		<Button id="newLocationGridButton" onClick="buttonTouched" type="location" />
+		<Button id="newCollectionGridButton" onClick="buttonTouched" type="collection" />
+	</View>
+</Alloy>

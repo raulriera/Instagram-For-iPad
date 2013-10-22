@@ -1,0 +1,13 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {
+        "com.raulriera.imageGrid": "1.0",
+        "com.raulriera.loadingTableViewRow": "1.0",
+        "com.raulriera.chatWindow": "1.0"
+    }
+}

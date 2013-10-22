@@ -1,0 +1,13 @@
+<Alloy>
+	<Window>
+		<!-- The whole app is a giant scrollable view, that we set it disable
+		at the beginning and we only enable it once the views are "shrunk" -->
+		<ScrollableView id="gridsContainer" />
+		<!-- This is where the name of the current grid "in focus" -->
+		<View id="currentGridContainer">
+			<Label id="currentGrid"></Label>
+		</View>
+		<!-- Require the navigation (the one that controls what kind of grids to add) -->
+		<Require id="navigationMenu" src="navigationMenu" />
+	</Window>
+</Alloy>

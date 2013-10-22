@@ -1,0 +1,9 @@
+<Alloy>
+	<TableView id="conversation" onClick="onTableViewTouched" />
+	<Toolbar>
+		<Items>
+			<TextField id="textBox" onChange="onTextFieldChanged" />
+			<Button id="submitButton" onClick="onSubmitButtonTouched" />
+		</Items>
+	</Toolbar>
+</Alloy>

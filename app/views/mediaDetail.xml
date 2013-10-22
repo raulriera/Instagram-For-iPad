@@ -1,0 +1,49 @@
+<Alloy>
+	<Window onClick="onWindowTouched">
+		<!-- This view displays the information about the author of this media -->
+		<View id="author">
+			<ImageView id="avatar" onClick="onAvatarTouched" />
+			<View id="captionBackground">
+				<Label id="caption" />
+			</View>
+		</View>
+		
+		<!-- This contains everyhing about the media, we wrap it together because we want to move
+		this whole view for the "tossing out" gesture -->
+		<View id="container">
+			<!-- This video play is removed if the media is an image -->
+			<VideoPlayer id="videoPlayer" ns="Titanium.Media" onClick="toggleVideoPlayback" onDoubletap="onMediaDoubleTapped" />
+			<ImageView id="media" onDoubletap="onMediaDoubleTapped">
+				<ActivityIndicator id="activityIndicator" />
+			</ImageView>
+			<!-- This icon is removed as well if the media is an image, we use it to hint the user 
+			he has to tap the media in order to play it (videos only) -->
+			<ImageView id="videoPlayerIcon" />
+			
+			<!-- This represents all our media options, pretty much the "menu bar" -->
+			<ScrollableView id="sections">
+				<!-- This button grid is on top hiding the "sections" behind it -->
+				<View id="buttons">
+					<!-- How many likes the media has -->
+					<Button id="likesButton" onClick="onLikesButtonTouched" backgroundImage="/icons/mediaDetail/likes-up.png" backgroundSelectedImage="/icons/mediaDetail/likes-down.png">
+						<Label id="likesLabel" class="buttonLabel" />
+					</Button>
+					<!-- How many comments the media has -->
+					<Button id="commentsButton" onClick="onCommentsButtonTouched" backgroundImage="/icons/mediaDetail/comments-up.png" backgroundSelectedImage="/icons/mediaDetail/comments-down.png">
+						<Label id="commentsLabel" class="buttonLabel" />
+					</Button>
+					<!-- What tags are associated with the media -->
+					<Button id="hashtagsButton" onClick="onTagsButtonTouched" backgroundImage="/icons/mediaDetail/hashtags-up.png" backgroundSelectedImage="/icons/mediaDetail/hashtags-down.png">
+						<Label id="hashtagsLabel" class="buttonLabel" />
+					</Button>
+					<!-- Where was the media taken -->
+					<Button id="locationButton" onClick="onLocationButtonTouched" backgroundImage="/icons/mediaDetail/location-up.png" backgroundSelectedImage="/icons/mediaDetail/location-down.png"></Button>
+					<!-- Include or exclude this media in a collection -->
+					<Button id="collectionsButton" onClick="onCollectionsButtonTouched" backgroundImage="/icons/mediaDetail/collections-up.png" backgroundSelectedImage="/icons/mediaDetail/collections-down.png"></Button>
+					<!-- Share this media -->
+					<Button id="shareButton" onClick="onShareButtonTouched" backgroundImage="/icons/mediaDetail/share-up.png" backgroundSelectedImage="/icons/mediaDetail/share-down.png"></Button>
+				</View>
+			</ScrollableView>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,30 @@
+"TextField": {
+	width: '210dp',
+	height: 'auto',
+	left: '10dp',
+	hintText: L("add_collection_hint"),
+	font: {
+		fontSize: '13dp'
+	},
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"Button": {
+	width: Titanium.UI.SIZE,
+	height: '40dp',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	title: L("create"),
+	enabled: false,
+	style: Titanium.UI.iPhone.SystemButtonStyle.BORDERED
+},
+"Toolbar": {
+	top: '0dp',
+	width: Titanium.UI.FILL,
+	height: '44dp'
+},
+"TableView": {
+	top: '44dp', // to accomodate the toolbar
+	bottom: '0dp' 
+}

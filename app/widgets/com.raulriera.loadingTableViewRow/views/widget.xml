@@ -1,0 +1,5 @@
+<Alloy>
+	<TableViewRow>
+		<ActivityIndicator id="indicator" />
+	</TableViewRow>
+</Alloy>

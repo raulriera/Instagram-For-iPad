@@ -1,0 +1,28 @@
+"ActivityIndicator[platform=ios]": {
+	style: Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
+},
+"Window": {
+	backgroundColor: "#111"
+},
+"Label": {
+	font: {
+		fontFamily: Alloy.Globals.font.fontFamily.normal,
+		fontSize: '18dp'
+	},
+	shadowColor: '#000',
+	shadowOffset: {
+		x: 0,
+		y: 1
+	}
+},
+"Button": {
+	color: '#658dae',
+	font: {
+		fontFamily: Alloy.Globals.font.fontFamily.highlighted,
+		fontSize: '20dp'
+	}
+},
+"TableViewRow": {
+	height: '48dp',
+	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.GRAY
+}

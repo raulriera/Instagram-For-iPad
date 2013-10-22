@@ -1,0 +1,40 @@
+<Alloy>
+	<Popover>
+		<RightNavButton>
+			<Button id="viewPosts" onClick="onViewPostsButtonTouched" />
+		</RightNavButton>
+		
+		<View class="container">
+			<!-- The profile image of the user -->
+			<ImageView id="avatar" />
+			<!-- The little horizontal container that holds all the info about how many posts,
+			followers, etc this user has -->
+			<View id="countBoxes">
+				<View class="countBox">
+					<Label id="postsCount" class="count">-</Label>
+					<Label id="postsLabel" class="countLabel">posts</Label>
+				</View>
+				<View class="countBox">
+					<Label id="followersCount" class="count">-</Label>
+					<Label id="followersLabel" class="countLabel">followers</Label>
+				</View>
+				<View class="countBox">
+					<Label id="followingCount" class="count">-</Label>
+					<Label id="followingLabel" class="countLabel">following</Label>
+				</View>
+			</View>
+			<!-- The button that will allow us to edit the relationship with this user -->
+			<Button id="relationshipButton" onClick="onRelationshipButtonTouched" />
+			
+			<!-- Visual separator for the two "sections" -->
+			<View class="separator" />
+			
+			<!-- The view that contains all the person information about the user -->
+			<View class="personalInformation">
+				<Label id="fullname" />
+				<Label id="bio" />
+				<Label id="website" onClick="onWebsiteTouched" />
+			</View>
+		</View>
+	</Popover>
+</Alloy>
