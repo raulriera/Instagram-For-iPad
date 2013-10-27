@@ -6,6 +6,19 @@ My take of an Instagram Application for iPad built using Titanium Appcelerator. 
 	<img src="http://github.com/raulriera/Instagram-For-iPad/raw/master/ScreenShot1.jpg" />
 </p>
 
+Usage
+------
+Remember to change these values (`alloy.js`) with your own credentials from [Instagram](http://instagram.com/developer/)
+
+```js
+// Instagram global values
+Alloy.Globals.instagram = {
+	clientId: "your-instagram-client-id",
+	clientSecret: "your-instagram-client-secret",
+	urlCallback: "your-instagram-URL-callback"
+};
+```
+
 Dependencies
 ------
 The following great modules are in use
