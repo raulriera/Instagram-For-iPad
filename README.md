@@ -6,6 +6,20 @@ My take of an Instagram Application for iPad built using Titanium Appcelerator. 
 	<img src="http://github.com/raulriera/Instagram-For-iPad/raw/master/ScreenShot1.jpg" />
 </p>
 
+Features
+------
+
+* Grid style navigation of Instagram
+* Unique gesture driven navigation
+* Pull down a grid to update them.
+* Pull up (toss) a grid to remove them
+* History of every search
+* Ability to create as many grids as you like
+* iOS 7 inspired design
+* Multi orientation support
+* Infinite loader of images
+* Many more...
+
 Usage
 ------
 Remember to change these values (`alloy.js`) with your own credentials from [Instagram](http://instagram.com/developer/)
