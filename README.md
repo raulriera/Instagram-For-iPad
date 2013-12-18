@@ -13,11 +13,14 @@ Features
 * Unique gesture driven navigation
 * Pull down a grid to update them.
 * Pull up (toss) a grid to remove them
+* Like, unlike, follow, unfollow, search and comments (if you can get Instagram to validate your key)
+* Store videos or photos into collections
 * History of every search
 * Ability to create as many grids as you like
 * iOS 7 inspired design
 * Multi orientation support
 * Infinite loader of images
+* Built using Alloy
 * Many more...
 
 Usage
