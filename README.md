@@ -3,7 +3,7 @@ Instagram for iPad
 My take of an Instagram Application for iPad built using Titanium Appcelerator. It is not completely developed and it has a few bugs, but you can take it for a spin with a simple setup in `alloy.js` file.
 
 <p align="center">
-	<img src="http://github.com/raulriera/Instagram-For-iPad/raw/master/ScreenShot1.jpg" />
+	<img src="https://raw.githubusercontent.com/hjrsoft/Instagram-For-iPad/master/ScreenShot1.jpg" />
 </p>
 
 Features
